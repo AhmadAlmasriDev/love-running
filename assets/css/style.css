@@ -186,3 +186,9 @@ hr {
     padding: 20px;
     text-align: center;
 }
+
+#calender {
+    background: url("../images/dublin-city.webp") no-repeat center 100% / cover;
+    overflow: hidden;
+
+}
