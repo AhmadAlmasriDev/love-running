@@ -139,7 +139,7 @@ h2 {
     /* padding-top: 30px; */
     width: 33%;
     margin: 0 auto;
-    background-color: yellow;
+
 }
 
 hr {
@@ -162,4 +162,21 @@ hr {
 .right-side {
     float: left;
     text-align: right;
+}
+
+#ethos-image-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 0 auto;
+
+}
+
+#ethos-image {
+    background: url("../images/ethos-center-image.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+
 }
