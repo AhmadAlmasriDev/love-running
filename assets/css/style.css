@@ -188,8 +188,16 @@ hr {
 }
 
 #calender {
-    background: url("../images/dublin-city.webp") no-repeat center 100% / cover;
+    background: url("../images/dublin-city.webp") no-repeat center / cover;
     overflow: hidden;
+    width: 100%;
+
+    /* background-image: url('../images/dublin-city.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden; */
 
 }
 
