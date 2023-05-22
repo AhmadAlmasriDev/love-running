@@ -121,23 +121,45 @@ h2 {
     height: 600px;
 }
 
-#ethos-side-left {
+#ethos-left {
     padding-top: 30px;
     float: left;
-    background-color: green;
+
     width: 33%;
 }
 
-#ethos-side-right {
+#ethos-right {
     padding-top: 30px;
     float: right;
-    background-color: blue;
+
     width: 33%;
 }
 
-#ethos-side-center {
+#ethos-center {
     /* padding-top: 30px; */
     width: 33%;
     margin: 0 auto;
     background-color: yellow;
+}
+
+hr {
+    margin: 5px 0;
+    width: 100%;
+    border-top: 1px solid #3a3a3a;
+}
+
+.both-sides {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.left-side {
+    float: right;
+}
+
+.right-side {
+    float: left;
+    text-align: right;
 }
