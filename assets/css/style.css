@@ -45,6 +45,7 @@ h2 {
 #menu,
 #logo {
     line-height: 75px;
+    padding-left: 30px;
 }
 
 #menu a {
@@ -112,4 +113,31 @@ h2 {
 
     background-color: rgba(241, 109, 107, .7);
     position: absolute;
+}
+
+/* ethos */
+
+#club-ethos {
+    height: 600px;
+}
+
+#ethos-side-left {
+    padding-top: 30px;
+    float: left;
+    background-color: green;
+    width: 33%;
+}
+
+#ethos-side-right {
+    padding-top: 30px;
+    float: right;
+    background-color: blue;
+    width: 33%;
+}
+
+#ethos-side-center {
+    /* padding-top: 30px; */
+    width: 33%;
+    margin: 0 auto;
+    background-color: yellow;
 }
