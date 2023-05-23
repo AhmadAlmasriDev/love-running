@@ -280,6 +280,15 @@ footer {
         padding: 0;
         /* margin: 0 auto; */
     }
+}
 
+@media screen and (max-width: 950px) {
 
+    #menu {
+        float: left;
+        clear: left;
+        /* margin-left: 30px; */
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
 }
