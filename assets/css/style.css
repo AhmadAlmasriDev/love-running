@@ -338,5 +338,13 @@ footer {
 
     }
 
+    #photos {
+        columns: 3;
+    }
+}
 
+@media screen and (max-width: 800px) {
+    #photos {
+        columns: 2;
+    }
 }
