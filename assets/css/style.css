@@ -187,6 +187,9 @@ hr {
     text-align: center;
 }
 
+
+/* calender */
+
 #calender {
     background: url("../images/dublin-city.webp") no-repeat center / cover;
     overflow: hidden;
@@ -217,6 +220,9 @@ hr {
 #calender h2 {
     color: #fafafa;
 }
+
+
+/* footer */
 
 footer {
     height: 150px;
@@ -250,6 +256,9 @@ footer {
     width: 100%;
 }
 
+
+/* media querry */
+
 @media screen and (max-width: 1200px) {
     #club-ethos {
         width: 65%;
@@ -279,6 +288,13 @@ footer {
         width: 100%;
         padding: 0;
         /* margin: 0 auto; */
+    }
+
+    #calender div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
     }
 }
 
